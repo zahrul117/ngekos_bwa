@@ -25,7 +25,7 @@ class Transaction extends Model
     ];
 
     public function boardingHouse(){
-        return $this->belongsTo(Boarding::class);
+        return $this->belongsTo(BoardingHouse::class);
     }
 
     public function room(){
